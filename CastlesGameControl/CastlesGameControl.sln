@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastlesGameControl", "CastlesGameControl\CastlesGameControl.csproj", "{51937E61-FA89-4882-962D-9A03A7107905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{37B60E38-1B91-429F-A815-B0DEC83050BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastlesGameControlTests", "Tests\CastlesGameControlTests\CastlesGameControlTests.csproj", "{7E9F4D69-3196-46D8-96CD-E7B201B681F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51937E61-FA89-4882-962D-9A03A7107905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51937E61-FA89-4882-962D-9A03A7107905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51937E61-FA89-4882-962D-9A03A7107905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51937E61-FA89-4882-962D-9A03A7107905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9F4D69-3196-46D8-96CD-E7B201B681F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9F4D69-3196-46D8-96CD-E7B201B681F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9F4D69-3196-46D8-96CD-E7B201B681F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9F4D69-3196-46D8-96CD-E7B201B681F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E9F4D69-3196-46D8-96CD-E7B201B681F0} = {37B60E38-1B91-429F-A815-B0DEC83050BA}
+	EndGlobalSection
+EndGlobal
